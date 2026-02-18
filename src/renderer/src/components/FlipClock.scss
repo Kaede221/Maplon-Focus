@@ -1,0 +1,19 @@
+.flip-clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+  .flip-clock-group {
+    display: flex;
+    gap: 3px;
+  }
+
+  .flip-clock-separator {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+    user-select: none;
+    padding: 0 2px;
+  }
+}

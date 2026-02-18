@@ -1,8 +1,11 @@
+import FlipClock from './components/FlipClock'
+import './App.scss'
+
 function App(): React.JSX.Element {
   return (
-    <>
-      <h1>Hello World</h1>
-    </>
+    <div className="app">
+      <FlipClock />
+    </div>
   )
 }
 
