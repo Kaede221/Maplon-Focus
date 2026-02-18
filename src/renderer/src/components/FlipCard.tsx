@@ -12,6 +12,7 @@ export default function FlipCard({ value }: FlipCardProps): React.JSX.Element {
 
   useEffect(() => {
     if (value !== currentValue) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setNextValue(value)
       setIsFlipping(true)
 
